@@ -6,7 +6,7 @@
     "light": "/logo/os1.svg"
   },
   "metadata": {
-    "og:image": "https://media.githubusercontent.com/media/os1ai/os1/refs/heads/main/website/static/img/cover.png"
+    "og:image": "https://media.githubusercontent.com/media/ashton17h/os1/refs/heads/main/website/static/img/cover.png"
   },
   "favicon": "/logo/os1.svg",
   "search": {
@@ -23,7 +23,7 @@
   },
   "topbarCtaButton": {
     "type": "github",
-    "url": "https://github.com/os1ai/os1"
+    "url": "https://github.com/ashton17h/os1"
   },
   "font": {
     "headings": {
@@ -205,9 +205,9 @@
   ],
   "footerSocials": {
     "x": "https://x.com/Chi_Wang_",
-    "github": "https://github.com/os1ai/os1",
-    "linkedin": "https://www.linkedin.com/company/os1ai",
+    "github": "https://github.com/ashton17h/os1",
+    "linkedin": "https://www.linkedin.com/company/ashton17h",
     "discord": "https://discord.gg/pAbnFJrkgZ",
-    "youtube": "https://www.youtube.com/@os1ai"
+    "youtube": "https://www.youtube.com/@ashton17h"
   }
 }

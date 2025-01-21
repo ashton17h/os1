@@ -1,4 +1,4 @@
-# Copyright (c) 2023 - 2024, Owners of https://github.com/os1ai
+# Copyright (c) 2023 - 2024, Owners of https://github.com/ashton17h
 #
 # SPDX-License-Identifier: Apache-2.0
 def calculate_correlation(csv_path: str, column1: str, column2: str, method: str = "pearson") -> float:

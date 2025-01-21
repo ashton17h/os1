@@ -1,4 +1,4 @@
-# Copyright (c) 2023 - 2024, Owners of https://github.com/os1ai
+# Copyright (c) 2023 - 2024, Owners of https://github.com/ashton17h
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -26,7 +26,7 @@ WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/Microsoft"
 WIKIPEDIA_TITLE = "Microsoft - Wikipedia"
 WIKIPEDIA_STRING = "Redmond"
 
-PLAIN_TEXT_URL = "https://raw.githubusercontent.com/os1ai/os1/main/README.md"
+PLAIN_TEXT_URL = "https://raw.githubusercontent.com/ashton17h/os1/main/README.md"
 IMAGE_URL = "https://github.com/afourney.png"
 
 PDF_URL = "https://arxiv.org/pdf/2308.08155.pdf"

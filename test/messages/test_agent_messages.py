@@ -1,4 +1,4 @@
-# Copyright (c) 2023 - 2024, Owners of https://github.com/os1ai
+# Copyright (c) 2023 - 2024, Owners of https://github.com/ashton17h
 #
 # SPDX-License-Identifier: Apache-2.0
 
@@ -325,7 +325,7 @@ class TestTextMessage:
                         {
                             "type": "image_url",
                             "image_url": {
-                                "url": "https://media.githubusercontent.com/media/os1ai/os1/refs/heads/main/website/static/img/autogen_agentchat.png"
+                                "url": "https://media.githubusercontent.com/media/ashton17h/os1/refs/heads/main/website/static/img/autogen_agentchat.png"
                             },
                         }
                     ]

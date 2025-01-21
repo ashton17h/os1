@@ -1,4 +1,4 @@
-# Copyright (c) 2023 - 2024, Owners of https://github.com/os1ai
+# Copyright (c) 2023 - 2024, Owners of https://github.com/ashton17h
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -486,7 +486,7 @@ def post_process_mdx(rendered_mdx: Path, source_notebooks: Path, front_matter: d
     repo_root = Path(__file__).parent.resolve().parent.resolve()
     repo_relative_notebook = source_notebooks.resolve().relative_to(repo_root)
     front_matter["source_notebook"] = f"/{repo_relative_notebook}"
-    front_matter["custom_edit_url"] = f"https://github.com/os1ai/os1/edit/main/{repo_relative_notebook}"
+    front_matter["custom_edit_url"] = f"https://github.com/ashton17h/os1/edit/main/{repo_relative_notebook}"
 
     # Is there a title on the content? Only search up until the first code cell
     # first_code_cell = content.find("```")
@@ -508,7 +508,7 @@ def post_process_mdx(rendered_mdx: Path, source_notebooks: Path, front_matter: d
     # if "{" in title:
     #     title = title[: title.find("{")].strip()
 
-    github_link = f"https://github.com/os1ai/os1/blob/main/{repo_relative_notebook}"
+    github_link = f"https://github.com/ashton17h/os1/blob/main/{repo_relative_notebook}"
     content = (
         f'\n<a href="{github_link}" class="github-badge" target="_blank">'
         + """<img noZoom src="https://img.shields.io/badge/Open%20on%20GitHub-grey?logo=github" alt="Open on GitHub" />"""
@@ -518,7 +518,7 @@ def post_process_mdx(rendered_mdx: Path, source_notebooks: Path, front_matter: d
 
     # If no colab link is present, insert one
     if "colab-badge.svg" not in content:
-        colab_link = f"https://colab.research.google.com/github/os1ai/os1/blob/main/{repo_relative_notebook}"
+        colab_link = f"https://colab.research.google.com/github/ashton17h/os1/blob/main/{repo_relative_notebook}"
         content = (
             f'\n<a href="{colab_link}" class="colab-badge" target="_blank">'
             + """<img noZoom src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" />"""
@@ -865,7 +865,7 @@ def add_authors_and_social_img_to_blog_posts(website_dir: Path) -> None:
             # Social share image
             social_img_html = """\n<div>
 <img noZoom className="social-share-img"
-  src="https://media.githubusercontent.com/media/os1ai/os1/refs/heads/main/website/static/img/cover.png"
+  src="https://media.githubusercontent.com/media/ashton17h/os1/refs/heads/main/website/static/img/cover.png"
   alt="social preview"
   style={{ position: 'absolute', left: '-9999px' }}
 />

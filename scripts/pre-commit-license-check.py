@@ -1,4 +1,4 @@
-# Copyright (c) 2023 - 2024, Owners of https://github.com/os1ai
+# Copyright (c) 2023 - 2024, Owners of https://github.com/ashton17h
 #
 # SPDX-License-Identifier: Apache-2.0
 #!/usr/bin/env python3
@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 from typing import List
 
-REQUIRED_ELEMENTS = [r"Copyright.*Owners of https://github\.com/os1ai", r"SPDX-License-Identifier: Apache-2\.0"]
+REQUIRED_ELEMENTS = [r"Copyright.*Owners of https://github\.com/ashton17h", r"SPDX-License-Identifier: Apache-2\.0"]
 
 
 def get_github_pr_files() -> List[Path]:

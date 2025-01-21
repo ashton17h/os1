@@ -1,7 +1,7 @@
 #-------------------------------------------------------------------------------------------------------------
-# Copyright (c) 2023 - 2024, Owners of https://github.com/os1ai
+# Copyright (c) 2023 - 2024, Owners of https://github.com/ashton17h
 # SPDX-License-Identifier: Apache-2.0
-# Contributions to this project, i.e., https://github.com/os1ai/os1, are licensed under the Apache License, Version 2.0 (Apache-2.0).
+# Contributions to this project, i.e., https://github.com/ashton17h/os1, are licensed under the Apache License, Version 2.0 (Apache-2.0).
 
 # Portions derived from  https://github.com/microsoft/autogen under the MIT License.
 # SPDX-License-Identifier: MIT

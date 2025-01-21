@@ -2426,7 +2426,7 @@
                 "eng"
             ],
             "page_number": 4,
-            "image_path": "/Users/yzhai/workspace/os1ai/rag/pdfinfo/figure-4-1.jpg",
+            "image_path": "/Users/yzhai/workspace/ashton17h/rag/pdfinfo/figure-4-1.jpg",
             "file_directory": "test_unstructured_ingest/example-docs",
             "filename": "layout-parser-paper.pdf"
         }
@@ -2823,7 +2823,7 @@
                 "eng"
             ],
             "page_number": 5,
-            "image_path": "/Users/yzhai/workspace/os1ai/rag/pdfinfo/table-5-1.jpg",
+            "image_path": "/Users/yzhai/workspace/ashton17h/rag/pdfinfo/table-5-1.jpg",
             "parent_id": "5a1838a8f40b4523094652cf14ab974c",
             "file_directory": "test_unstructured_ingest/example-docs",
             "filename": "layout-parser-paper.pdf"

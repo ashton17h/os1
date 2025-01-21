@@ -1,4 +1,4 @@
-# Copyright (c) 2023 - 2024, Owners of https://github.com/os1ai
+# Copyright (c) 2023 - 2024, Owners of https://github.com/ashton17h
 #
 # SPDX-License-Identifier: Apache-2.0
 
@@ -61,7 +61,7 @@ setuptools.setup(
         "interop": ["pyautogen[interop]==" + __version__],
         "neo4j": ["pyautogen[neo4j]==" + __version__],
     },
-    url="https://github.com/os1ai/os1",
+    url="https://github.com/ashton17h/os1",
     author="Chi Wang & Qingyun Wu",
     author_email="support@os1.ai",
     classifiers=[

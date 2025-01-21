@@ -1,4 +1,4 @@
-# Copyright (c) 2023 - 2024, Owners of https://github.com/os1ai
+# Copyright (c) 2023 - 2024, Owners of https://github.com/ashton17h
 #
 # SPDX-License-Identifier: Apache-2.0
 import hashlib
@@ -165,7 +165,7 @@ Note that the previous experts will forget everything after you obtain the respo
             A full list of keys and their functionalities can be found in [docs](https://docs.os1.ai/docs/topics/captainagent/configurations).
         agent_config_save_path (str): the path to save the generated or retrieved agent configuration.
         **kwargs (dict): Please refer to other kwargs in
-            [ConversableAgent](https://github.com/os1ai/os1/blob/main/autogen/agentchat/conversable_agent.py#L74).
+            [ConversableAgent](https://github.com/ashton17h/os1/blob/main/autogen/agentchat/conversable_agent.py#L74).
         """
         super().__init__(
             name,

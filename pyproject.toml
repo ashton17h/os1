@@ -22,7 +22,7 @@ keywords = [
     "os1",
     "pyautogen",
     "os1.ai",
-    "os1ai",
+    "ashton17h",
     "agentic"
 ]
 
@@ -216,8 +216,8 @@ dev = [
 [project.urls]
 Homepage = "https://os1.ai/"
 Documentation = "https://docs.os1.ai/docs/Home"
-Tracker = "https://github.com/os1ai/os1/issues"
-Source = "https://github.com/os1ai/os1"
+Tracker = "https://github.com/ashton17h/os1/issues"
+Source = "https://github.com/ashton17h/os1"
 Discord = "https://discord.gg/pAbnFJrkgZ"
 
 [tool.hatch.version]

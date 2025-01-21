@@ -89,7 +89,7 @@ a.github-badge > img {
 
 /* Home page hero section starts */
 .homepage-hero-section {
-  background-image: url("https://mintlify.s3.us-west-1.amazonaws.com/os1ai/static/img/homepage-hero-background.png");
+  background-image: url("https://mintlify.s3.us-west-1.amazonaws.com/ashton17h/static/img/homepage-hero-background.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -193,7 +193,7 @@ a.github-badge > img {
 
 @media screen and (max-width: 540px) {
   .homepage-hero-section {
-    background-image: url("https://mintlify.s3.us-west-1.amazonaws.com/os1ai/static/img/homepage-hero-background-large.png");
+    background-image: url("https://mintlify.s3.us-west-1.amazonaws.com/ashton17h/static/img/homepage-hero-background-large.png");
     aspect-ratio: 1.43;
   }
   .hero-content {

@@ -19,7 +19,7 @@ USER autogen
 # ENV OPENAI_API_KEY="{OpenAI-API-Key}"
 
 # Clone the os1 repository
-RUN git clone https://github.com/os1ai/os1.git /home/autogen/os1
+RUN git clone https://github.com/ashton17h/os1.git /home/autogen/os1
 WORKDIR /home/autogen/os1
 
 # Install os1 in editable mode with extra components

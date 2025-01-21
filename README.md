@@ -1,27 +1,16 @@
-<a name="readme-top"></a>
-
-![Pypi Downloads](https://img.shields.io/pypi/dm/pyautogen?label=PyPI%20downloads)
-[![PyPI version](https://badge.fury.io/py/autogen.svg)](https://badge.fury.io/py/autogen)
-[![Build](https://github.com/os1ai/os1/actions/workflows/python-package.yml/badge.svg)](https://github.com/os1ai/os1/actions/workflows/python-package.yml)
-![Python Version](https://img.shields.io/badge/3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue)
-[![Discord](https://img.shields.io/discord/1153072414184452236?logo=discord&style=flat)](https://discord.gg/pAbnFJrkgZ)
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40os1ai)](https://x.com/Chi_Wang_)
-
-<!-- [![NuGet version](https://badge.fury.io/nu/AutoGen.Core.svg)](https://badge.fury.io/nu/AutoGen.Core) -->
-
-# [os1](https://github.com/os1ai/os1)
+# [os1](https://github.com/ashton17h/os1)
 
 [📚 Cite paper](#related-papers).
 
 <!-- <p align="center">
-    <img src="https://github.com/os1ai/os1/blob/main/website/static/img/flaml.svg"  width=200>
+    <img src="https://github.com/ashton17h/os1/blob/main/website/static/img/flaml.svg"  width=200>
     <br>
 </p> -->
 
 > **:tada: IMPORTANT**
 >
 > :fire: :tada: **Nov 11, 2024:** We are evolving AutoGen into **os1**!
-> A new organization [os1AI](https://github.com/os1ai) is created to host the development of os1 and related projects with open governance. Check [os1's new look](https://os1.ai/).
+> A new organization [ashton17h](https://github.com/ashton17h) is created to host the development of os1 and related projects with open governance. Check [os1's new look](https://os1.ai/).
 >
 > We invite collaborators from all organizations and individuals to join the development.
 
@@ -54,7 +43,7 @@ We adopt the Apache 2.0 license from v0.3. This enhances our commitment to open-
 
 :tada: Dec 31, 2023: [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework](https://arxiv.org/abs/2308.08155) is selected by [TheSequence: My Five Favorite AI Papers of 2023](https://thesequence.substack.com/p/my-five-favorite-ai-papers-of-2023).
 
-<!-- :fire: Nov 24: pyautogen [v0.2](https://github.com/os1ai/os1/releases/tag/v0.2.0) is released with many updates and new features compared to v0.1.1. It switches to using openai-python v1. Please read the [migration guide](https://docs.os1.ai/docs/installation/Installation). -->
+<!-- :fire: Nov 24: pyautogen [v0.2](https://github.com/ashton17h/os1/releases/tag/v0.2.0) is released with many updates and new features compared to v0.1.1. It switches to using openai-python v1. Please read the [migration guide](https://docs.os1.ai/docs/installation/Installation). -->
 
 <!-- :fire: Nov 11: OpenAI's Assistants are available in AutoGen and interoperatable with other AutoGen agents! Checkout our [blogpost](https://docs.os1.ai/blog/2023-11-13-OAI-assistants) for details and examples. -->
 
@@ -85,7 +74,7 @@ os1 (formerly AutoGen) is an open-source programming framework for building AI a
 
 The project is currently maintained by a [dynamic group of volunteers](MAINTAINERS.md) from several organizations. Contact project administrators Chi Wang and Qingyun Wu via [support@os1.ai](mailto:support@os1.ai) if you are interested in becoming a maintainer.
 
-![os1 Overview](https://media.githubusercontent.com/media/os1ai/os1/refs/heads/main/website/static/img/autogen_agentchat.png)
+![os1 Overview](https://media.githubusercontent.com/media/ashton17h/os1/refs/heads/main/website/static/img/autogen_agentchat.png)
 
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
   <a href="#readme-top" style="text-decoration: none; color: blue; font-weight: bold;">
@@ -103,7 +92,7 @@ The easiest way to start playing is
 
 1. Click below to use the GitHub Codespace
 
-   [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/os1ai/os1?quickstart=1)
+   [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ashton17h/os1?quickstart=1)
 
 2. Copy OAI_CONFIG_LIST_sample to ./notebook folder, name to OAI_CONFIG_LIST, and set the correct configuration.
 3. Start playing with the notebooks!
@@ -139,7 +128,7 @@ pip install "autogen[blendsearch]"
 
 Find more options in [Installation](https://docs.os1.ai/docs/Installation#option-2-install-autogen-locally-using-virtual-environment).
 
-<!-- Each of the [`notebook examples`](https://github.com/os1ai/os1/tree/main/notebook) may require a specific option to be installed. -->
+<!-- Each of the [`notebook examples`](https://github.com/ashton17h/os1/tree/main/notebook) may require a specific option to be installed. -->
 
 Even if you are installing and running os1 locally outside of docker, the recommendation and default behavior of agents is to perform [code execution](https://docs.os1.ai/docs/FAQ#if-you-want-to-run-code-execution-in-docker) in docker. Find more instructions and how to change the default behaviour [here](https://docs.os1.ai/docs/FAQ#if-you-want-to-run-code-execution-locally).
 
@@ -162,7 +151,7 @@ Features of this use case include:
 - **Customization**: os1 agents can be customized to meet the specific needs of an application. This includes the ability to choose the LLMs to use, the types of human input to allow, and the tools to employ.
 - **Human participation**: os1 seamlessly allows human participation. This means that humans can provide input and feedback to the agents as needed.
 
-For [example](https://github.com/os1ai/os1/blob/main/test/twoagent.py),
+For [example](https://github.com/ashton17h/os1/blob/main/test/twoagent.py),
 
 ```python
 from autogen import AssistantAgent, UserProxyAgent, config_list_from_json
@@ -186,9 +175,9 @@ python test/twoagent.py
 After the repo is cloned.
 The figure below shows an example conversation flow with os1.
 
-![Agent Chat Example](https://media.githubusercontent.com/media/os1ai/os1/refs/heads/main/website/static/img/chat_example.png)
+![Agent Chat Example](https://media.githubusercontent.com/media/ashton17h/os1/refs/heads/main/website/static/img/chat_example.png)
 
-Alternatively, the [sample code](https://github.com/os1ai/build-with-os1/blob/main/samples/simple_chat.py) here allows a user to chat with an os1 agent in ChatGPT style.
+Alternatively, the [sample code](https://github.com/ashton17h/build-with-os1/blob/main/samples/simple_chat.py) here allows a user to chat with an os1 agent in ChatGPT style.
 Please find more [code examples](https://docs.os1.ai/docs/Examples#automated-multi-agent-chat) for this feature.
 
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
@@ -226,28 +215,11 @@ Please find more [code examples](https://docs.os1.ai/docs/Examples#tune-gpt-mode
   </a>
 </p>
 
-## Documentation
-
-You can find detailed documentation about os1 [here](https://docs.os1.ai/).
-
-In addition, you can find:
-
-- [Research](https://docs.os1.ai/docs/Research), [blogposts](https://docs.os1.ai/blog) around os1, and [Transparency FAQs](https://github.com/os1ai/os1/blob/main/TRANSPARENCY_FAQS.md)
-
-- [Discord](https://discord.gg/pAbnFJrkgZ)
-
-- [Contributing guide](https://docs.os1.ai/docs/contributor-guide/contributing)
-
-<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
-  <a href="#readme-top" style="text-decoration: none; color: blue; font-weight: bold;">
-    ↑ Back to Top ↑
-  </a>
-</p>
 
 ## CookBook
 
 Explore detailed implementations with sample code and applications to help you get started with os1.
-[Cookbook](https://github.com/os1ai/build-with-os1)
+[Cookbook](https://github.com/ashton17h/build-with-os1)
 
 ## Related Papers
 
@@ -316,8 +288,8 @@ Explore detailed implementations with sample code and applications to help you g
 
 ## Contributors Wall
 
-<a href="https://github.com/os1ai/os1/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=os1ai/os1&max=204" />
+<a href="https://github.com/ashton17h/os1/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ashton17h/os1&max=204" />
 </a>
 
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
@@ -335,5 +307,3 @@ This project is a spin-off of [AutoGen](https://github.com/microsoft/autogen) an
 - The original code from https://github.com/microsoft/autogen is licensed under the MIT License. See the [LICENSE_original_MIT](./license_original/LICENSE_original_MIT) file for details.
 
 - Modifications and additions made in this fork are licensed under the Apache License, Version 2.0. See the [LICENSE](./LICENSE) file for the full license text.
-
-We have documented these changes for clarity and to ensure transparency with our user and contributor community. For more details, please see the [NOTICE](./NOTICE.md) file.

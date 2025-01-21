@@ -1,8 +1,8 @@
-# Copyright (c) 2023 - 2024, Owners of https://github.com/os1ai
+# Copyright (c) 2023 - 2024, Owners of https://github.com/ashton17h
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-# Portions derived from https://github.com/os1ai/os1 are under the MIT License.
+# Portions derived from https://github.com/ashton17h/os1 are under the MIT License.
 # SPDX-License-Identifier: MIT
 # Will return the filename relative to the workspace path
 import re
