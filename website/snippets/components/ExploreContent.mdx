@@ -1,0 +1,48 @@
+export const ExploreContent = () => {
+
+    const contents = [
+        {
+            title: "Get Started",
+            link: "/docs/Getting-Started",
+            description: "Learn how to get started with os1. Follow the instruction to quickly build-up your first os1 application.",
+        },
+        {
+            title: "Tutorial",
+            link: "/docs/tutorial/introduction",
+            description: "This tutorial introduces basic concepts and building blocks of os1.",
+        },
+        {
+            title: "User Guide",
+            link: "/docs/topics",
+            description: "Users' guide to different functionalities of os1, including CodeExecution, GroupChat, and more.",
+        },
+        {
+            title: "Examples",
+            link: "/docs/Examples",
+            description: "Learn different examples demonstrating the usage of os1 in various scenarios.",
+        },
+        {
+            title: "Applications",
+            link: "/docs/Gallery",
+            description: "A collection of different applications built using os1.",
+        },
+        {
+            title: "Contributions",
+            link: "/docs/contributor-guide/contributing",
+            description: "Learn about how you can contribute to os1 and this documentation, including pushing patches, code review and more.",
+        },
+    ];
+
+    return (
+        <div class="explore-content">
+            <CardGroup cols={2}>
+                {contents.map((feature, index) => (
+                    <Card key={index} title={feature.title} href={feature.link}>
+                        {feature.description}
+                    </Card>
+                ))}
+            </CardGroup>
+        </div>
+    )
+
+}
