@@ -175,7 +175,7 @@ python test/twoagent.py
 After the repo is cloned.
 The figure below shows an example conversation flow with os1.
 
-![Agent Chat Example](https://github.com/ashton17h/os1/blob/master/autogen_agentchat.png)
+![Agent Chat Example](https://github.com/ashton17h/os1/blob/master/chat_example.png)
 
 
 Alternatively, the [sample code](https://github.com/ashton17h/build-with-os1/blob/main/samples/simple_chat.py) here allows a user to chat with an os1 agent in ChatGPT style.
