@@ -74,7 +74,7 @@ os1 (formerly AutoGen) is an open-source programming framework for building AI a
 
 The project is currently maintained by a [dynamic group of volunteers](MAINTAINERS.md) from several organizations. Contact project administrators Chi Wang and Qingyun Wu via [support@os1.ai](mailto:support@os1.ai) if you are interested in becoming a maintainer.
 
-![os1 Overview](https://media.githubusercontent.com/media/ashton17h/os1/refs/heads/main/website/static/img/autogen_agentchat.png)
+![os1 Overview](https://raw.githubusercontent.com/ashton17h/os1/master/autogen_agentchat.png)
 
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
   <a href="#readme-top" style="text-decoration: none; color: blue; font-weight: bold;">
@@ -175,7 +175,8 @@ python test/twoagent.py
 After the repo is cloned.
 The figure below shows an example conversation flow with os1.
 
-![Agent Chat Example](https://media.githubusercontent.com/media/ashton17h/os1/refs/heads/main/website/static/img/chat_example.png)
+![Agent Chat Example](https://raw.githubusercontent.com/ashton17h/os1/master/chat_example.png)
+
 
 Alternatively, the [sample code](https://github.com/ashton17h/build-with-os1/blob/main/samples/simple_chat.py) here allows a user to chat with an os1 agent in ChatGPT style.
 Please find more [code examples](https://docs.os1.ai/docs/Examples#automated-multi-agent-chat) for this feature.
