@@ -10,7 +10,7 @@
 > **:tada: IMPORTANT**
 >
 > :fire: :tada: **Nov 11, 2024:** We are evolving AutoGen into **os1**!
-> A new organization [ashton17h](https://github.com/ashton17h) is created to host the development of os1 and related projects with open governance. Check [os1's new look](https://os1.ai/).
+> A new organization [ashton17h](https://github.com/ashton17h) is created to host the development of os1 and related projects with open governance. Check [os1's new look](https://os1ai.io/).
 >
 > We invite collaborators from all organizations and individuals to join the development.
 
@@ -72,7 +72,7 @@ os1 (formerly AutoGen) is an open-source programming framework for building AI a
 
 **Open Source Statement**: The project welcomes contributions from developers and organizations worldwide. Our goal is to foster a collaborative and inclusive community where diverse perspectives and expertise can drive innovation and enhance the project's capabilities. Whether you are an individual contributor or represent an organization, we invite you to join us in shaping the future of this project. Together, we can build something truly remarkable.
 
-The project is currently maintained by a [dynamic group of volunteers](MAINTAINERS.md) from several organizations. Contact project administrators Chi Wang and Qingyun Wu via [support@os1.ai](mailto:support@os1.ai) if you are interested in becoming a maintainer.
+The project is currently maintained by a [dynamic group of volunteers](MAINTAINERS.md) from several organizations. Contact project administrators Chi Wang and Qingyun Wu via [support@os1ai.io](mailto:support@os1ai.io) if you are interested in becoming a maintainer.
 
 ![os1 Overview](https://github.com/ashton17h/os1/blob/master/autogen_agentchat.png)
 
